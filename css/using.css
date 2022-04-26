@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 0;
+
+}
+
+.logo {
+    color: #1F2D41;
+    display: flex;
+    display: inline;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.ride-side {
+    display: flex;
+    position: relative;
+    right: 300px;
+}
+
+
+.ride-side ul li {
+
+    display: inline;
+    padding: 30px;
+}
+
+.ride-side button {
+    /* background-color: #00BA94;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 20px;
+    padding: 0.8rem 3rem;
+    font-size: 0.7rem;
+    padding: 0.8rem 3rem; */
+
+    border: none;
+    background-color: #00BA94;
+    color: white;
+    padding: 1.5rem 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: -10px -2px;
+    cursor: pointer;
+    border-radius: 50rem;
+    line-height: 1px;
+
+}
+
+.ride-side button :hover {
+    background-color: black;
+}
+
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+}
+
+.page1 img {
+    width: 15%;
+}
+
+.page1-text {
+    text-align: center;
+}
+
+.page1-text h1 {
+    color: #323F52;
+    font-size: 2.5rem;
+    font-weight: 500px;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+}
+
+.page1 p {
+    color: #687281;
+}
+
+.img3 {
+    width: 2vh;
+}
+
+.inline {
+    display: inline;
+}
+
+.container7 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0%;
+    justify-self: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.mt10 .container7 a {
+    color: #A5ABB3;
+}
+
+.container7 div {
+    color: #A5ABB3;
+}
+
+
+
+.pb3 {
+    padding-bottom: 3%;
+}
+
+mt10 {
+    background-color: #1F2D41;
+    margin-top: 10%;
+}
